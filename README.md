@@ -12,7 +12,7 @@ This repository contains the team's website: a single-page, dark, terminal-inspi
 |---|---|---|---|---|
 | RageBear62 | Aditya Tripathi | [Profile](https://github.com/tripathiaditya-codes) | [Profile](https://www.linkedin.com/in/aditya-kumar-tripathi28/) | [Profile](https://tryhackme.com/p/Aditya.Tripathi) |
 | Noddy | Parth Nagam | [Profile](https://github.com/NodYwhoo/) | [Profile](https://www.linkedin.com/in/parthnagam/) | [Profile](https://tryhackme.com/p/NodyWhoo) |
-| ChillGuy | Chirag Dubey | [Profile](https://github.com/Chirag24-droid) | [Profile](https://www.linkedin.com/in/chirag-dubey-5b4327351/) | [Profile](https://tryhackme.com/p/Sierraaaa.17) |
+| Sierraaa | Chirag Dubey | [Profile](https://github.com/Chirag24-droid) | [Profile](https://www.linkedin.com/in/chirag-dubey-5b4327351/) | [Profile](https://tryhackme.com/p/Sierraaaa.17) |
 
 ## Focus Areas
 
