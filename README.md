@@ -1,40 +1,78 @@
-# Goodfellas
+# GOODFELLAS
 
-A Python CLI tool for IOC (Indicator of Compromise) enrichment using the VirusTotal API. Built as part of my SOC analyst portfolio.
+**GOODFELLAS — Root the Impossible. Rise Unstoppable.**
 
-## What it does
+GOODFELLAS is a competitive CTF (Capture the Flag) team of cybersecurity enthusiasts. We play CTFs to sharpen real security skills, break hard problems, and document what we learn.
 
-Takes an indicator (starting with IP addresses in v1) and queries VirusTotal for reputation data, returning a clear, color-coded verdict in the terminal — no need to manually check each IOC on the VirusTotal website.
+This repository contains the team's website: a single-page, dark, terminal-inspired site.
 
-## Status
+## The Team
 
-🚧 In active development — v1 in progress.
+| Gamertag | Name | GitHub | LinkedIn | TryHackMe |
+|---|---|---|---|---|
+| RageBear62 | Aditya Tripathi | [Profile](https://github.com/tripathiaditya-codes) | [Profile](https://www.linkedin.com/in/aditya-kumar-tripathi28/) | [Profile](https://tryhackme.com/p/Aditya.Tripathi) |
+| Noddy | Parth Nagam | [Profile](https://github.com/NodYwhoo/) | [Profile](https://www.linkedin.com/in/parthnagam/) | [Profile](https://tryhackme.com/p/NodyWhoo) |
+| ChillGuy | Chirag Dubey | [Profile](https://github.com/Chirag24-droid) | [Profile](https://www.linkedin.com/in/chirag-dubey-5b4327351/) | [Profile](https://tryhackme.com/p/Sierraaaa.17) |
+
+## Focus Areas
+
+- **Web Exploitation:** injection, auth flaws, broken access control, logic bugs
+- **Cryptography:** classical ciphers, weak primitives, implementation mistakes
+- **Reverse Engineering:** reading binaries and bytecode to recover hidden logic
+- **Digital Forensics:** disk, memory, network captures, file carving
+- **Pwn:** memory corruption and binary exploitation
+- **OSINT:** turning public information into verifiable answers
+
+## The Website
+
+**Sections:** Hero, About, Team, Expertise, Interactive Terminal, CTF Records, Contact.
+
+**Highlights**
+- Dark theme (`#08090C`) with neon-green accents (`#00FF9C`) and monospace typography
+- Typewriter slogan and a simulated terminal
+- Responsive layout, keyboard-accessible navigation and social links (with tooltips and aria-labels)
+- Social links open in a new tab with `rel="noopener noreferrer"`
+- SEO metadata, Open Graph tags, custom GF favicon
+- Respects `prefers-reduced-motion`
+
+**Terminal commands** (all simulated, no real command execution or network access):
+
+`help` · `about` · `team` · `members` · `expertise` · `whoami` · `date` · `clear`
+
+**Stack:** React 18, TypeScript, Tailwind CSS. Everything is in one `index.html` and compiled in the browser via CDN (React, Babel Standalone, Tailwind Play CDN), so there is no build step.
+
+## Editing Content
+
+Open the page source and edit the constants at the top of the script:
+
+- `MEMBERS`: gamertags, names, and social links
+- `EXPERTISE`: focus areas and descriptions
+- `SLOGAN`: keep it exactly as written
+
+Changes flow automatically to the team cards, footer, and terminal output.
+
+## CTF Records
+
+No competitions are logged yet. This section is a placeholder for future events, scores, and write-ups. Only real results should be added here.
+
+## Run Locally
+
+No install needed. Open `index.html` in a browser (an internet connection is required to load the CDN scripts), or serve it locally:
+
+```bash
+python3 -m http.server 8000
+# then visit http://localhost:8000
+```
+
+## Deploy
+
+Any static host works: GitHub Pages, Netlify, Vercel, or Cloudflare Pages. Publish `index.html` as the site root, with no build command.
 
 ## Roadmap
 
-- [ ] v1: Single IP lookup via VirusTotal v3 API, color-coded verdict output (malicious / suspicious / clean)
-- [ ] v2: Support for domains, URLs, and file hashes
-- [ ] v3: Bulk scanning from a file (CSV/TXT list of IOCs)
-- [ ] v4: Export results (CSV/JSON report)
+- Migrate to a Vite + React + TypeScript project with a pre-built Tailwind pipeline for faster loads
+- Add CTF records and write-ups as results come in
 
-## Tech Stack
+---
 
-- Python 3
-- `requests` — VirusTotal API calls
-- `argparse` — CLI interface
-- `colorama` (or ANSI codes) — terminal color output
-
-## Usage (planned)
-
-```bash
-python goodfellas.py --ip 8.8.8.8
-```
-
-## Why "Goodfellas"
-
-Because good IOC triage means knowing exactly who the bad guys are before they cause damage.
-
-## Author
-
-Aditya — BSc IT student, aspiring SOC Analyst.
-[LinkedIn](https://linkedin.com/in/aditya-kumar-tripathi28/) · [TryHackMe](https://tryhackme.com/p/Aditya.Tripathi)
+*GOODFELLAS — Root the Impossible. Rise Unstoppable.*
