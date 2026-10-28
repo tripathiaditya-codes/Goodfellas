@@ -11,7 +11,7 @@ This repository contains the team's website: a single-page, dark, terminal-inspi
 | Gamertag | Name | GitHub | LinkedIn | TryHackMe |
 |---|---|---|---|---|
 | RageBear62 | Aditya Tripathi | [Profile](https://github.com/tripathiaditya-codes) | [Profile](https://www.linkedin.com/in/aditya-kumar-tripathi28/) | [Profile](https://tryhackme.com/p/Aditya.Tripathi) |
-| Noddy | Parth Nagam | [Profile](https://github.com/NodYwhoo/) | [Profile](https://www.linkedin.com/in/parthnagam/) | [Profile](https://tryhackme.com/p/NodyWhoo) |
+| NodY | Parth Nagam | [Profile](https://github.com/NodYwhoo/) | [Profile](https://www.linkedin.com/in/parthnagam/) | [Profile](https://tryhackme.com/p/NodyWhoo) |
 | Sierraaa | Chirag Dubey | [Profile](https://github.com/Chirag24-droid) | [Profile](https://www.linkedin.com/in/chirag-dubey-5b4327351/) | [Profile](https://tryhackme.com/p/Sierraaaa.17) |
 
 ## Focus Areas
